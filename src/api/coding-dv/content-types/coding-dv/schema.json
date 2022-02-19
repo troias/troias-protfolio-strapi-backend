@@ -83,6 +83,26 @@
       "type": "component",
       "repeatable": true,
       "component": "element.projects"
+    },
+    "employment": {
+      "displayName": "employment",
+      "type": "component",
+      "repeatable": false,
+      "component": "element.employment"
+    },
+    "profilePic": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bio": {
+      "type": "text"
     }
   }
 }

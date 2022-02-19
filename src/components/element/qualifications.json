@@ -2,13 +2,14 @@
   "collectionName": "components_element_qualifications",
   "info": {
     "displayName": "qualifications",
-    "icon": "allergies"
+    "icon": "allergies",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "qualifications": {
+    "qualification": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::qualification.qualification"
     }
   }

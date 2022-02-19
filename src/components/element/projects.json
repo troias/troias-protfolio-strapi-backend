@@ -2,13 +2,14 @@
   "collectionName": "components_element_projects",
   "info": {
     "displayName": "projects",
-    "icon": "archway"
+    "icon": "archway",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "projects": {
+    "project": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::project.project"
     }
   }
