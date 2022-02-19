@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_element_skills",
+  "info": {
+    "displayName": "skills",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skill_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill-category.skill-category"
+    }
+  }
+}

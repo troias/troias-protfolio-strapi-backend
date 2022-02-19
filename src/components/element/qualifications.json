@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_element_qualifications",
+  "info": {
+    "displayName": "qualifications",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "qualifications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::qualification.qualification"
+    }
+  }
+}

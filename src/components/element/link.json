@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_element_links",
+  "info": {
+    "displayName": "link",
+    "icon": "angle-up"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

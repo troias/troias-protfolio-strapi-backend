@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_element_referees",
+  "info": {
+    "displayName": "referees",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "position": {
+      "displayName": "position ",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.position"
+    }
+  }
+}

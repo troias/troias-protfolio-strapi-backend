@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_element_contact_details",
+  "info": {
+    "displayName": "contact-details",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "employmentStatus": {
+      "type": "string"
+    },
+    "Availability": {
+      "type": "string"
+    }
+  }
+}

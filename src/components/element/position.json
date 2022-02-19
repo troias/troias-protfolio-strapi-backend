@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_element_position_s",
+  "info": {
+    "displayName": "position ",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "jobTitle": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    }
+  }
+}

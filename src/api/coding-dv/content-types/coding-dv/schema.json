@@ -1,0 +1,88 @@
+{
+  "kind": "singleType",
+  "collectionName": "coding_dvs",
+  "info": {
+    "singularName": "coding-dv",
+    "pluralName": "coding-dvs",
+    "displayName": "coding-dv",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "interests": {
+      "displayName": "interests",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.interests"
+    },
+    "referees": {
+      "displayName": "referees",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.referees"
+    },
+    "contactDetails": {
+      "displayName": "contact-details",
+      "type": "component",
+      "repeatable": false,
+      "component": "element.contact-details"
+    },
+    "strenghts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.interests"
+    },
+    "skills": {
+      "displayName": "skills",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.skills"
+    },
+    "qualifications": {
+      "displayName": "qualifications",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.qualifications"
+    },
+    "projects": {
+      "displayName": "projects",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.projects"
+    }
+  }
+}

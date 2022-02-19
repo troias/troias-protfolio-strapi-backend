@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_element_interests",
+  "info": {
+    "displayName": "interests",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

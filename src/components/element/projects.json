@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_element_projects",
+  "info": {
+    "displayName": "projects",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}
