@@ -2,8 +2,15 @@
   "collectionName": "components_element_employments",
   "info": {
     "displayName": "employment",
-    "icon": "balance-scale"
+    "icon": "balance-scale",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "job": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::job.job"
+    }
+  }
 }

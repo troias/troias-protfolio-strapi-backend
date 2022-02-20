@@ -87,7 +87,7 @@
     "employment": {
       "displayName": "employment",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "element.employment"
     },
     "profilePic": {
