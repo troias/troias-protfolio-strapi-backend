@@ -37,7 +37,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::skill-category.skill-category",
-      "inversedBy": "skills"
+      "mappedBy": "skills"
     },
     "project_categories": {
       "type": "relation",

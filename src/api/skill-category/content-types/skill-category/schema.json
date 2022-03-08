@@ -4,7 +4,8 @@
   "info": {
     "singularName": "skill-category",
     "pluralName": "skill-categories",
-    "displayName": "skill-category"
+    "displayName": "skill-category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,9 @@
       "relation": "manyToMany",
       "target": "api::project-category.project-category",
       "mappedBy": "skill_categories"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

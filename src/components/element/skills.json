@@ -7,9 +7,9 @@
   },
   "options": {},
   "attributes": {
-    "skill_categories": {
+    "skill_category": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "oneToOne",
       "target": "api::skill-category.skill-category"
     }
   }
