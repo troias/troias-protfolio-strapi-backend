@@ -57,6 +57,13 @@
     },
     "StackTitle": {
       "type": "string"
+    },
+    "featured": {
+      "type": "enumeration",
+      "enum": [
+        "on",
+        "off"
+      ]
     }
   }
 }
