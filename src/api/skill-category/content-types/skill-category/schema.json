@@ -37,11 +37,16 @@
       "type": "text"
     },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }

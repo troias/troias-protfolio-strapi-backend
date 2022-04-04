@@ -4,7 +4,8 @@
   "info": {
     "singularName": "skill",
     "pluralName": "skills",
-    "displayName": "skill"
+    "displayName": "skill",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +19,15 @@
       "type": "richtext"
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "link": {
       "displayName": "link",
@@ -44,6 +46,13 @@
       "relation": "manyToMany",
       "target": "api::project-category.project-category",
       "inversedBy": "skills"
+    },
+    "featured": {
+      "type": "enumeration",
+      "enum": [
+        "on",
+        "off"
+      ]
     }
   }
 }
