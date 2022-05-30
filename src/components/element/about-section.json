@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_element_about_sections",
+  "info": {
+    "displayName": "about-section",
+    "icon": "exclamation-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    }
+  }
+}

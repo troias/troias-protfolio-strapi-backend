@@ -12,15 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "body": {
-      "type": "richtext"
-    },
-    "title": {
-      "type": "string"
-    },
-    "intro": {
-      "type": "string"
-    },
     "cover": {
       "type": "media",
       "multiple": false,
@@ -43,66 +34,17 @@
         "audios"
       ]
     },
-    "interests": {
-      "displayName": "interests",
-      "type": "component",
-      "repeatable": true,
-      "component": "element.interests"
-    },
-    "referees": {
-      "displayName": "referees",
-      "type": "component",
-      "repeatable": true,
-      "component": "element.referees"
-    },
     "contactDetails": {
       "displayName": "contact-details",
       "type": "component",
       "repeatable": false,
       "component": "element.contact-details"
     },
-    "strenghts": {
+    "about": {
+      "displayName": "about-section",
       "type": "component",
-      "repeatable": true,
-      "component": "element.interests"
-    },
-    "skills": {
-      "displayName": "skills",
-      "type": "component",
-      "repeatable": true,
-      "component": "element.skills"
-    },
-    "qualifications": {
-      "displayName": "qualifications",
-      "type": "component",
-      "repeatable": true,
-      "component": "element.qualifications"
-    },
-    "projects": {
-      "displayName": "projects",
-      "type": "component",
-      "repeatable": true,
-      "component": "element.projects"
-    },
-    "employment": {
-      "displayName": "employment",
-      "type": "component",
-      "repeatable": true,
-      "component": "element.employment"
-    },
-    "profilePic": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "bio": {
-      "type": "text"
+      "repeatable": false,
+      "component": "element.about-section"
     }
   }
 }

@@ -15,17 +15,23 @@
     "name": {
       "type": "string"
     },
-    "skill_categories": {
+    "projects": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::skill-category.skill-category",
+      "target": "api::project.project",
       "inversedBy": "project_categories"
     },
-    "skills": {
+    "qualification": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::skill.skill",
-      "mappedBy": "project_categories"
+      "relation": "manyToOne",
+      "target": "api::qualification.qualification",
+      "inversedBy": "project_categories"
+    },
+    "skill_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::skill-category.skill-category",
+      "inversedBy": "project_categories"
     }
   }
 }

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_element_contact_detail_items",
+  "info": {
+    "displayName": "contactDetailItem",
+    "icon": "arrow-circle-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -55,6 +55,12 @@
     },
     "distinction": {
       "type": "string"
+    },
+    "project_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project-category.project-category",
+      "mappedBy": "qualification"
     }
   }
 }

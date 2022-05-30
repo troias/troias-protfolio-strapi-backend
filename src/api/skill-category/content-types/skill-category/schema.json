@@ -15,22 +15,10 @@
     "name": {
       "type": "string"
     },
-    "skills": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::skill.skill",
-      "inversedBy": "skill_categories"
-    },
     "projects": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::project.project",
-      "mappedBy": "skill_categories"
-    },
-    "project_categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::project-category.project-category",
       "mappedBy": "skill_categories"
     },
     "description": {
@@ -47,6 +35,21 @@
     "slug": {
       "type": "uid",
       "targetField": "name"
+    },
+    "project_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project-category.project-category",
+      "mappedBy": "skill_category"
+    },
+    "skills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill.skill",
+      "mappedBy": "skill_category"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }

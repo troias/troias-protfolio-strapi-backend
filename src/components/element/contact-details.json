@@ -7,36 +7,34 @@
   },
   "options": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "email": {
-      "type": "email"
-    },
-    "mobile": {
-      "type": "string"
-    },
-    "jobTitle": {
-      "type": "string"
-    },
-    "employmentStatus": {
-      "type": "string"
-    },
-    "Availability": {
-      "type": "string"
-    },
-    "address": {
-      "type": "string"
-    },
     "iconImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "contactDetailItem": {
+      "displayName": "contactDetailItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "element.contact-detail-item"
+    },
+    "location": {
+      "type": "string"
+    },
+    "currentEmployment": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
     }
   }
 }
