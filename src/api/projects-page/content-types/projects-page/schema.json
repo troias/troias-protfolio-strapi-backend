@@ -4,7 +4,8 @@
   "info": {
     "singularName": "projects-page",
     "pluralName": "projects-pages",
-    "displayName": "projectsPage"
+    "displayName": "projectsPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "intro": {
+      "type": "text"
+    },
+    "body": {
       "type": "text"
     }
   }
