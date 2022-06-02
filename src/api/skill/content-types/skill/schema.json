@@ -47,6 +47,10 @@
       "relation": "manyToOne",
       "target": "api::skill-category.skill-category",
       "inversedBy": "skills"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }
