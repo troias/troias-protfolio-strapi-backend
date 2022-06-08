@@ -45,6 +45,11 @@
       "type": "component",
       "repeatable": false,
       "component": "element.about-section"
+    },
+    "header_social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.link"
     }
   }
 }
