@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "annon_leadform_submissions",
+  "info": {
+    "singularName": "annon-leadform-submission",
+    "pluralName": "annon-leadform-submissions",
+    "displayName": "annon-leadform-submission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "email_address": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

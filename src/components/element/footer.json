@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_element_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "footer_social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "element.link"
+    }
+  }
+}
