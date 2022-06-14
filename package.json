@@ -14,6 +14,7 @@
     "@strapi/plugin-graphql": "4.1.0",
     "@strapi/plugin-i18n": "4.1.0",
     "@strapi/plugin-users-permissions": "4.1.0",
+    "@strapi/provider-upload-aws-s3": "^4.1.12",
     "@strapi/strapi": "4.1.0",
     "classnames": "^2.3.1",
     "pg": "^8.7.3",
