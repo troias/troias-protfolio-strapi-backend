@@ -1,0 +1,200 @@
+{
+  "categories": [
+    {
+      "name": "Paranormal attachments",
+      "slug": "paranormal-attachments"
+    },
+    {
+      "name": "Demon possession",
+      "slug": "demon-possession"
+    },
+    {
+      "name": "Starting up your own-paranormal investigating team",
+      "slug": "starting-up-your-own-paranormal-investigating-team"
+    },
+    {
+      "name": "shadow-people",
+      "slug": "shadow-people"
+    },
+    {
+      "name": "Life after death",
+      "slug": "Life-after-death"
+    }, 
+    {
+      "name": "Investigations",
+      "slug": "investigations"
+    }
+  ],
+  "homepage": {
+    "seo": {
+      "metaTitle": "The Nobodies",
+      "metaDescription": "The Nobodies investigates super natural.",
+      "shareImage": null
+    },
+    "hero": {
+      "title": "The Nobodies", 
+      "heroImage": null, 
+      "info": "The Nobodies investigates super natural."
+    }, 
+    "about": {
+      "title": "About",
+      "info": "The Nobodies investigates super natural.  ", 
+      "social_links": [
+        {
+          "title": "instagram",
+          "url": "https://www.instagram.com/thenobodies/"
+        },
+        {
+          "title": "facebook",
+          "url": "https://www.facebook.com/thenobodies/"
+        },
+        {
+          "title": "twitter",
+          "url": "https://twitter.com/thenobodies/"
+        },
+        {
+          "title": "youtube",
+          "url": "https://www.youtube.com/channel/UC-lQyjWZRXdNk-qXDpY_uQQ/"
+        }, 
+        {
+          "title": "messenger",
+          "url": "https://www.messenger.com/t/108782531775548"
+        }
+      
+      ]
+    }
+  
+  },
+  "writers": [
+    {
+      "name": "Robert S",
+      "email": "robs@gmail.com",
+      "picture": null
+    },
+    {
+      "name": "Marlene",
+      "email": "marlene@gmail.com",
+      "picture": null
+    }
+  ],
+  "articles": [
+    {
+      "title": "Evidence of Life after death? ",
+      "content": "One of lifes biggest mysteries is the existence of life after death. Its a controversial subject for many and a huge challenge for researchers and scientist alike. Why is proof of life after death so difficult to obtain? And what qualifies as proof? The idea that a part of us still lives on after we have died is a comforting one to many people",
+      "slug": "evidence-of-life-after-death",
+      "category": {
+        "id": 5
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "The phenomenon known as near death experiences and out of body experiences might hold relevant key information for us that could be used in researching the possibilities",
+      "image": null
+    },
+    {
+      "title": "Paranormal Attachments ",
+      "content": "Energy. We have all experienced what an atmosphere feels like, the ability to walk into an empty room and you can just feel the type of energy lingering there. Huma beings are made of energy as well, which means we too, have the ability to absorb, produce and create energy",
+      "slug": "paranormal-attachments",
+      "category": {
+        "id": 1
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "I have also found that ghost dont necessarily tend to attach or haunt a complete strangers or location, when spirits tend to linger around a person- it could be to get a message across on their behalf ",
+      "image": null
+    },
+    {
+      "title": "Shadow people",
+      "content": "It is no secret the reputability of the work done by many paranormal Investigators and research associations have been significantly tarnished over a period of time. Our work and research most of the time fall upon the death ears of the scientific community, and for good reason.",
+      "slug": "shadow-people",
+      "category": {
+        "id": 4
+      },
+      "author": {
+        "id": 1
+      },
+      "description": "Many independent paranormal groups make claims to their findings without any real basis of proof and or statistics to back it up, this copulated by many fraudulent videos and misleading findings which is being published on almost a daily basis is a major setback to fellow paranormal groups who are truly committed and serious about their line of work",
+      "image": null
+    },
+    {
+      "title": "Demon Possession",
+      "content": "The general consensus surrounding the phenomena of demon possession appears to differ over a broad range of cultures, religions and beliefs. Not only is very little truly understood about this subject, but the topic alone are frowned upon by many religious societys and medical practitioners in the field of psychology",
+      "slug": "demon-possession",
+      "category": {
+        "id": 2
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "The general consensus surrounding the phenomena of demon possession appears to differ over a broad range of cultures",
+      "image": null
+    },
+    {
+      "title": "starting up your own Paranormal investigating team",
+      "content": "This is an empty blog post with a beautiful picture",
+      "slug": "starting-up-your-own-paranormal-investigating-team",
+      "category": {
+        "id": 3
+      },
+      "author": {
+        "id": 2
+      },
+      "description": "The fact that all of our potential evidence captured was so quickly dismissed really started to get to the team.",
+      "image": null
+    }
+
+  ],
+  "investigations": [
+    {
+      "name": "The Nobodies",
+      "info": "The Nobodies investigates super natural.",
+      "slug": "the-nobodies",
+      "image": null, 
+      "title": "The Nobodies",
+      "category": {
+        "id": 6
+      }
+  
+    }
+    
+  ],
+  "global": {
+    "siteName": "The Nobodies",
+    "defaultSeo": {
+      "metaTitle": "The Nobodies - The Nobodies investigates super natural.",
+      "metaDescription": " The Nobodies investigates super natural.",
+      "shareImage": null
+    },
+    "footer": {
+      "message": "The Nobodies investigates super natural.",
+      "footer_social_links": [
+        {
+          "title": "Facebook",
+          "url": "https://www.facebook.com/The-Nobodies-105799590781296/"
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/TheNobodies"
+        },
+        {
+          "title": "Instagram",
+          "url": "https://www.instagram.com/thenobodies/"
+        },
+        {
+          "title": "Youtube",
+          "url": "https://www.youtube.com/channel/UC-_5-ZJXZzQX7XZq-_XKZdQ"
+        },
+    
+        {
+          "title": "Messenger",
+          "url": "https://www.messenger.com/t/108782531775548"
+        }
+        
+      ],
+      "copyright_text": "©2022 TheNobodies. All rights reserved.",
+    "favicon": null
+
+  }
+}
+}
