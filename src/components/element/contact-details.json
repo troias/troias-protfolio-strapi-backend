@@ -38,6 +38,9 @@
     },
     "cv": {
       "type": "string"
+    },
+    "nzqa": {
+      "type": "string"
     }
   }
 }
